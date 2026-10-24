@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LG7 Sports - Chuteiras e tênis esportivos</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+  <header class="verde">
+    <h1>LG7 Sports</h1>
+    <p>Loja de chuteiras e tênis esportivos</p>
+    <p id="saudacao"></p>
+    <p>Carrinho: <span id="contador">0</span> item(ns)</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Destaques</h2>
+      <div class="lista">
+        <div class="item">
+          <div class="icone">⚽</div>
+          <h3>Chuteiras de campo</h3>
+          <p>Modelos para grama natural e sintética.</p>
+          <button class="comprar">Adicionar ao carrinho</button>
+        </div>
+        <div class="item">
+          <div class="icone">🥅</div>
+          <h3>Chuteiras society e futsal</h3>
+          <p>Aderência e conforto para quadras e society.</p>
+          <button class="comprar">Adicionar ao carrinho</button>
+        </div>
+        <div class="item">
+          <div class="icone">👟</div>
+          <h3>Tênis de corrida</h3>
+          <p>Amortecimento leve para treinos e provas.</p>
+          <button class="comprar">Adicionar ao carrinho</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="verde">
+      <h2>Receba novidades</h2>
+      <p>Avisamos quando chegarem novos lançamentos.</p>
+      <input type="email" id="email" placeholder="Digite seu e-mail">
+      <button class="botao" id="btn-receber">Quero receber</button>
+      <p id="mensagem"></p>
+    </section>
+
+    <section>
+      <h2>Nossos serviços</h2>
+      <div class="lista">
+        <div class="item">
+          <div class="icone">🚚</div>
+          <h3>Entrega para todo o Brasil</h3>
+          <p>Seu calçado embalado com cuidado.</p>
+        </div>
+        <div class="item">
+          <div class="icone">🔄</div>
+          <h3>Troca fácil</h3>
+          <p>Não serviu? Troque o tamanho em até 30 dias.</p>
+        </div>
+        <div class="item">
+          <div class="icone">📏</div>
+          <h3>Guia de tamanhos</h3>
+          <p>Ajudamos você a escolher o número certo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="verde">
+      <h2>Conheça nossos produtos</h2>
+      <p>Veja o catálogo e escolha o seu.</p>
+      <a class="botao" href="mailto:ens-luangabriel@ugv.edu.br">Ver catálogo</a>
+    </section>
+    <section class="localizacao">
+      <h2>Onde estamos?</h2>
+      <div class="grid-localizacao">
+        <img class="mapa" src="mapa.svg" alt="Mapa com a localização da LG7 Sports">
+        <div class="endereco">
+          <h3>LG7 Sports - Loja física</h3>
+          <p><strong>Endereço:</strong> Rua Estudantes UGV, 777 - Centro</p>
+          <p><strong>Cidade:</strong> União da Vitória - PR</p>
+          <p><strong>CEP:</strong> 84600-000</p>
+          <p><strong>Horário:</strong> Segunda a sábado, das 9h às 18h</p>
+          <p><strong>Referência:</strong> Próximo à faculdade UGV</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-titulo">
+      <h2 id="faq-titulo">Perguntas frequentes</h2>
+      <p>Clique em uma pergunta para ver a resposta.</p>
+
+      <div class="faq-lista">
+        <details>
+          <summary>Como escolho o tamanho certo da chuteira?</summary>
+          <p>Meça o seu pé em centímetros, do calcanhar até o dedão, e compare com a tabela do nosso guia de tamanhos. Se ficar entre dois números, escolha o maior, pois a chuteira não deve apertar.</p>
+        </details>
+
+        <details>
+          <summary>Qual a diferença entre chuteira de campo, society e futsal?</summary>
+          <p>A chuteira de campo tem travas para grama natural ou sintética. A society tem travas pequenas para grama sintética. A de futsal tem sola lisa para quadras.</p>
+        </details>
+
+        <details>
+          <summary>Posso trocar se o tênis não servir?</summary>
+          <p>Sim. Você pode trocar o tamanho em até 30 dias, desde que o produto não tenha sido usado e esteja na caixa original.</p>
+        </details>
+
+        <details>
+          <summary>Vocês entregam em todo o Brasil?</summary>
+          <p>Sim. Enviamos para todo o país e o calçado vai embalado com cuidado. O prazo depende da sua região.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="ano">2026</span> LG7 Sports - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
